@@ -128,7 +128,7 @@ class TextEditor:
 
     def exit(self):
         SystemExit()
- # ryan morris
+        
     def statusBarStatus(self, variable, statusBar):
         if variable.get() == 1:
             statusBar.pack()
